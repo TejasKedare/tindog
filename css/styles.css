@@ -1,0 +1,169 @@
+
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	padding-top: 2.5rem;
+	padding-bottom: 4.5rem;
+	padding-left: 1rem;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	line-height: 1.5rem;
+
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+p{
+	color: #8f8f8f;
+}
+
+
+/**************************************************** class section ******************************************************/
+
+.fluid-container{
+	padding-top: 3%;
+	padding-bottom: 7%;
+	padding-right: 15%;
+	padding-left: 15%
+}
+
+
+
+.naa{
+	padding: 0 0 4.5rem;
+
+}
+
+.navbar-b{
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+}
+
+.title-img{
+	padding-left: 5rem;
+	padding-top: 2rem;
+	padding-bottom: auto;
+	width: 60%;
+	right: 30%;
+	transform: rotate(25deg);
+	position: absolute;
+}
+
+.but{
+	margin-left: 1rem;
+	size: 25%;
+}
+
+
+.fas{
+	text-align: center;
+	color: #ef8172;
+	padding-bottom: 1rem;
+}
+
+.fas:hover{
+	color: #ff4668
+
+}
+.box{
+	text-align: center;
+	padding: 5%;
+}
+
+.g-img{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+.carousel-item{
+	padding: 7% 15%;
+}
+
+
+.pricing-column{
+	padding: 3% 2%;
+
+}
+.so{
+	padding: 0.5rem;
+}
+
+
+/****************************************************** id section ******************************************************/
+#title{
+	background-color: #ff4668;
+	color: white;
+}
+
+#features{
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+}
+
+#testimonials{
+	text-align: center;
+	background-color: #ef8172;
+	color: white;
+}
+
+#press{
+	text-align: center;
+	background-color: #ef8172;
+	padding-bottom: 3%;	
+}
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+#cta{
+	padding: 4rem 8rem; 
+	text-align: center;
+	background-color: #ff4c68;
+}
+
+#footer{
+	text-align: center;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+/****************************************************** media section ******************************************************/
+
+
+@media (max-width: 1028px){
+	.title-img{
+		text-align: center;
+		position: static;
+		transform: rotate(0);
+		margin-left: 2rem;
+
+	}
+
+	h1{
+		text-align: center;
+	}
+}
